@@ -1,9 +1,8 @@
 var http = require("http");
 
 var manejador = function(solicitud, respuesta){
-console.log("Hello World!");
-
-
+console.log("I just to receive a new request");
+respuesta.end("Hello World!");
 };
 
 
